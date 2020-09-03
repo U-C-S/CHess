@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chess_Application", "Chess_Application\Chess_Application.csproj", "{3183A3DA-2EC3-46A6-A4A4-D09B2F50652E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chess_Application", "Chess_Application\Chess_Application.csproj", "{242BF0CA-4B9E-40EF-829E-5BF6A9B0524B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{3183A3DA-2EC3-46A6-A4A4-D09B2F50652E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3183A3DA-2EC3-46A6-A4A4-D09B2F50652E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3183A3DA-2EC3-46A6-A4A4-D09B2F50652E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3183A3DA-2EC3-46A6-A4A4-D09B2F50652E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{242BF0CA-4B9E-40EF-829E-5BF6A9B0524B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{242BF0CA-4B9E-40EF-829E-5BF6A9B0524B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{242BF0CA-4B9E-40EF-829E-5BF6A9B0524B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{242BF0CA-4B9E-40EF-829E-5BF6A9B0524B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {9781F4B0-998E-4CAF-ABA7-CDFB4DD6122F}
+		SolutionGuid = {47C47B61-74E3-44D3-8D74-19BCEB4F6F70}
 	EndGlobalSection
 EndGlobal
