@@ -5,21 +5,25 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Chess_Application"
         mc:Ignorable="d"
-        Title="Load" Height="300" Width="495" WindowStyle="None" ResizeMode="NoResize">
+        AllowsTransparency="True" MouseLeftButtonDown="Draggable"
+        Title="Load" Height="360" Width="594" WindowStyle="None" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" Foreground="{x:Null}">
+    <Window.Background>
+        <RadialGradientBrush>
+            <GradientStop Color="Black" Offset="1"/>
+            <GradientStop Color="#00000000" Offset="1"/>
+        </RadialGradientBrush>
+    </Window.Background>
     <Grid>
-        <Image Source="logo_chess.jpg" MouseLeftButtonDown="Draggable"/>
+        <Image Source="logo_chess2.jpg" VerticalAlignment="Bottom"/>
         <Label Content="CHess" Panel.ZIndex="1" Margin="0,35,0,0" Background="{x:Null}" Foreground="White" FontFamily="Ink Free" FontSize="40" VerticalAlignment="Top" FontWeight="Bold" Width="125" Height="60"/>
         <Label Content="H" Panel.ZIndex="1" Margin="-45,50,0,0" Background="{x:Null}" Foreground="White" FontFamily="Ink Free" FontSize="40" VerticalAlignment="Top" FontWeight="Bold" Width="36" Height="54">
             <Label.RenderTransform>
                 <TransformGroup>
-                    <ScaleTransform/>
-                    <SkewTransform/>
-                    <RotateTransform Angle="0.4"/>
-                    <TranslateTransform/>
+                    <RotateTransform Angle="1"/>
                 </TransformGroup>
             </Label.RenderTransform>
         </Label>
-        <ProgressBar Height="15" Margin="0,275,0,0" VerticalAlignment="Top" Width="130" Foreground="#FF06B025" BorderBrush="{x:Null}"/>
+        <ProgressBar IsIndeterminate="True" Minimum="0" Maximum="100" Height="12" Margin="0,327,0,0" VerticalAlignment="Top" Width="130" Foreground="#000" BorderBrush="{x:Null}"/>
 
         <Label Content="U-C-S" Background="{x:Null}" Foreground="#FF484848" HorizontalAlignment="Right" VerticalAlignment="Bottom" FontFamily="Calibri" FontSize="10"/>
     </Grid>

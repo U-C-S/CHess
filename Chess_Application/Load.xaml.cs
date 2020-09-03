@@ -1,16 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
+using System.Windows.Threading;
 
 namespace Chess_Application
 {
@@ -19,11 +9,22 @@ namespace Chess_Application
     /// </summary>
     public partial class Load : Window
     {
+        private void Draggable(object sender, RoutedEventArgs e) => DragMove();
+
+        private DispatcherTimer loadtime = new DispatcherTimer();
         public Load()
         {
             InitializeComponent();
+            loadtime.Tick += new EventHandler(LoadFinish);
+            loadtime.Interval = new TimeSpan(0, 0, 7);
+            loadtime.Start();
         }
-
-        private void Draggable(object sender, RoutedEventArgs e) => DragMove();
+        private void LoadFinish(object sender, EventArgs e)
+        {
+            MainWindow mw = new MainWindow();
+            mw.Show();
+            loadtime.Stop();
+            this.Close();
+        }
     }
 }
