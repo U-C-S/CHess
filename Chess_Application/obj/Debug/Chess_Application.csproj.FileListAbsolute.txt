@@ -1,7 +1,6 @@
-D:\COde\C-Sharp\CHess\Chess_Application\bin\Debug\Chess_Application.exe.config
-D:\COde\C-Sharp\CHess\Chess_Application\bin\Debug\Chess_Application.exe
-D:\COde\C-Sharp\CHess\Chess_Application\bin\Debug\Chess_Application.pdb
-D:\COde\C-Sharp\CHess\Chess_Application\obj\Debug\Chess_Application.csprojAssemblyReference.cache
+D:\COde\C-Sharp\CHess\Output\Chess_Application.exe.config
+D:\COde\C-Sharp\CHess\Output\Chess_Application.exe
+D:\COde\C-Sharp\CHess\Output\Chess_Application.pdb
 D:\COde\C-Sharp\CHess\Chess_Application\obj\Debug\Load.g.cs
 D:\COde\C-Sharp\CHess\Chess_Application\obj\Debug\MainWindow.g.cs
 D:\COde\C-Sharp\CHess\Chess_Application\obj\Debug\App.g.cs
