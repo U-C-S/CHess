@@ -8,10 +8,10 @@
         AllowsTransparency="True" MouseLeftButtonDown="Draggable"
         Title="Load" Height="360" Width="594" WindowStyle="None" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" Foreground="{x:Null}">
     <Window.Background>
-        <RadialGradientBrush>
-            <GradientStop Color="Black" Offset="1"/>
-            <GradientStop Color="#00000000" Offset="1"/>
-        </RadialGradientBrush>
+        <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+            <GradientStop Color="Black" Offset="0.21"/>
+            <GradientStop Color="#B2000000"/>
+        </LinearGradientBrush>
     </Window.Background>
     <Grid>
         <Image Source="logo_chess2.jpg" VerticalAlignment="Bottom"/>

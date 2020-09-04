@@ -5,8 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Chess_Application"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        WindowStyle="None" ResizeMode="NoResize" WindowStartupLocation="CenterScreen"
+        Title="CHess" Height="700" Width="800">
     <Grid>
-        
+        <Button Click="Button_Click" Content="X" Margin="0,-2,-2,0" Background="#FFFF6767" BorderBrush="{x:Null}" Foreground="Black" Width="45" Height="27" HorizontalAlignment="Right" VerticalAlignment="Top" FontFamily="Comic Sans MS" Panel.ZIndex="1"/>
+        <Button Click="WindowMin" Content="-" HorizontalAlignment="Right" Margin="0,-2,42,0" VerticalAlignment="Top" Width="45" Height="27" FontFamily="Comic Sans MS" Panel.ZIndex="1" BorderBrush="{x:Null}"/>
+        <Rectangle MouseLeftButtonDown="WindowDrag" Fill="#FFC8C8C8" Height="30" Width="800" Margin="0,0,0,0" VerticalAlignment="Top"/>
+
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="620" Margin="169,73,0,0" Stroke="Black" VerticalAlignment="Top" Width="620"/>
+
     </Grid>
 </Window>

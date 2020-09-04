@@ -24,5 +24,13 @@ namespace Chess_Application
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e) => Close();
+        private void WindowMin(object sender, RoutedEventArgs e)
+        {
+            this.WindowState = WindowState.Minimized;
+        }
+        private void WindowDrag(object sender, RoutedEventArgs e) => DragMove();
+
     }
 }
